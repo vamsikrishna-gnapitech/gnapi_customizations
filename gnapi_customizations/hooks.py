@@ -5,6 +5,11 @@ app_description = "Gnapi Customizations"
 app_email = "vamsikothuru@gmail.com"
 app_license = "mit"
 
+# Fixtures
+fixtures = [
+        {"doctype": "Custom Field", "filters": [["module", "=", "Gnapi Customizations"]] },
+        {"doctype": "DocType", "filters": [["name", "=", "Timesheet Approvals"]]}
+]
 # Apps
 # ------------------
 
