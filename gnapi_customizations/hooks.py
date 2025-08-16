@@ -7,8 +7,9 @@ app_license = "mit"
 
 # Fixtures
 fixtures = [
+        {"doctype": "Server Script", "filters": [["module", "=", "Gnapi Customizations"]]},
         {"doctype": "Custom Field", "filters": [["module", "=", "Gnapi Customizations"]] },
-        {"doctype": "DocType", "filters": [["name", "=", "Timesheet Approvals"]]}
+        {"doctype": "DocType", "filters": [["module", "=", "Gnapi Customizations"]]}
 ]
 # Apps
 # ------------------
