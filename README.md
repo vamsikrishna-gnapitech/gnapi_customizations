@@ -7,8 +7,9 @@ Gnapi Customizations
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
+cd /home/frappe/frappe-bench
+bench get-app https://github.com/vamsikrishna-gnapitech/gnapi_customizations.git --branch main 
+### If the above repository is not found, it will be located at https://github.com/gnapi-tech/gnapi_customizations.git
 bench install-app gnapi_customizations
 ```
 
